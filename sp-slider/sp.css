@@ -1,0 +1,51 @@
+.gia-sp-goc {
+    color: red;
+    font-size: 20px;
+}
+
+.gia-sp-giam {
+    font-size: 20px;
+}
+
+.main-sp {
+    background-color: white;
+}
+
+.main-sanpham .hinh-sp {
+    height: 500px;
+    width: 100%;
+    margin: 25px;
+}
+
+.thongtin-sp {
+    border: 1px solid #f0f0f0;
+}
+
+.tieude-sp {
+    font-size: 32px;
+    text-align: center;
+}
+
+.kt-sp {
+    margin-left: 70px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.mua-ngay {
+    color: white;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.hinh-sp-laptop {
+    height: 400px;
+    width: 100%;
+}
+
+.hinh-sp-tablet {
+    width: 100%;
+    height: 600px;
+    padding-top: 5px;
+}

@@ -1,0 +1,257 @@
+/* .container div {
+        border: 1px solid red;
+    }
+     */
+
+body {
+    background-color: #f0f0f0;
+}
+
+.ten-menu a {
+    text-align: center;
+    font-size: 10px;
+}
+
+.hinh-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.main-menu li:hover div {
+    display: block;
+}
+
+.TimKiem {
+    width: 300px;
+    font-size: small;
+}
+
+.btn-TimKiem {
+    font-size: small;
+}
+
+.icon-shop:hover {
+    color: grey;
+}
+
+.icon-shop {
+    color: white;
+    font-size: 48px;
+}
+
+.img-quangcao {
+    width: 1120px;
+}
+
+.hinh-slider {
+    height: 500px;
+    width: 100%;
+}
+
+.hinhsp-hot {
+    height: 160px;
+    width: 160px;
+    z-index: 2;
+}
+
+.sanpham-hot {
+    display: flex;
+    background-color: white;
+    border: 1px solid orangered;
+}
+
+.td-hot {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.td-hot h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sanpham-hot .priv_arrow {
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+    height: 70px;
+    width: 45px;
+    font-size: x-large;
+    z-index: 1;
+}
+
+.sanpham-hot .next_arrow {
+    position: absolute;
+    font-size: x-large;
+    bottom: 200px;
+    right: -5px;
+    height: 70px;
+    width: 45px;
+    z-index: 1;
+    display: inline-block;
+}
+
+.main-sp-hot img {
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-sp-hot img {
+        width: 100%;
+    }
+}
+
+.main-sp-hot .ten-sp-hot:hover {
+    color: cornflowerblue;
+}
+
+.sanpham-hot a {
+    text-decoration: none;
+}
+
+.gia-sp-gochot {
+    color: red;
+    font-size: 16px;
+}
+
+.gia-sp-giam {
+    color: black;
+    font-size: 12px;
+}
+
+.qt-spham {
+    font-size: 10px;
+    color: black;
+}
+
+.ten-sp-hot {
+    color: black;
+}
+
+.dt-noibat {
+    background-color: white;
+}
+
+.nen-dt-nbat {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-dt-nbat {
+    border: 1px solid #f0f0f0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main-dt-nbat a {
+    text-decoration: none;
+}
+
+.ten-sp-nbat {
+    color: black;
+}
+
+.main-dt-nbat .ten-sp-nbat:hover {
+    color: cornflowerblue;
+}
+
+.nen-dt-nbat a {
+    text-decoration: none;
+}
+
+.nen-dt-nbat .ten-dt-nbat:hover {
+    color: cornflowerblue;
+}
+
+.ten-dt-nbat {
+    color: black;
+}
+
+.hinh-qt-laptop {
+    height: 50px;
+    width: 50px;
+}
+
+#footer {
+    background-color: white;
+}
+
+.icon-footer {
+    border: 1px solid #f0f0f0;
+    height: 60px;
+    width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.diachi {
+    background-color: #343a40;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.icon-footer-cm {
+    height: 60px;
+    width: 200px;
+}
+
+.display-4 {
+    font-size: 24px;
+}
+
+.main-dt {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 22px;
+}
+
+.main-dt1 {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+}
+
+.nen-dt {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+.hinh-dt-nbat {
+    height: 200px;
+}
+
+.main-dk {
+    margin: 0px;
+    padding: 0px 80px 25px 80px;
+}
+
+.main-dk button {
+    width: 120px;
+}
+
+.hinh-dt-nbat {
+    transition: 0.5s ease-in;
+}
+
+.hinh-laptop-nbat {
+    transition: 0.5s ease-in;
+}
+
+.hinh-tablet-nbat {
+    transition: 0.5s ease-in;
+}
